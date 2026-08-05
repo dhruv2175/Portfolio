@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-syne {
+    font-family: 'Syne', sans-serif;
+  }
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Neo Brutalist Hard Shadows */
+  .brutal-shadow-sm {
+    box-shadow: 3px 3px 0px #333333;
+  }
+  .brutal-shadow {
+    box-shadow: 5px 5px 0px #333333;
+  }
+  .brutal-shadow-md {
+    box-shadow: 7px 7px 0px #333333;
+  }
+  .brutal-shadow-lg {
+    box-shadow: 10px 10px 0px #333333;
+  }
+  .brutal-shadow-xl {
+    box-shadow: 14px 14px 0px #333333;
+  }
+  
+  .brutal-shadow-primary {
+    box-shadow: 6px 6px 0px #FF6F61;
+  }
+  .brutal-shadow-yellow {
+    box-shadow: 6px 6px 0px #FFD700;
+  }
+  .brutal-shadow-blue {
+    box-shadow: 6px 6px 0px #00BFFF;
+  }
+  .brutal-shadow-green {
+    box-shadow: 6px 6px 0px #00FF7F;
+  }
+  .brutal-shadow-purple {
+    box-shadow: 6px 6px 0px #8A2BE2;
+  }
+
+  /* Paper cut texture pattern overlay */
+  .paper-dots {
+    background-image: radial-gradient(#333333 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  /* Text Stroke for outlined typography */
+  .text-stroke-2 {
+    -webkit-text-stroke: 2.5px #333333;
+    color: transparent;
+  }
+  .text-stroke-4 {
+    -webkit-text-stroke: 4px #333333;
+    color: transparent;
+  }
+  .text-stroke-white {
+    -webkit-text-stroke: 2.5px #FFFFFF;
+    color: transparent;
+  }
+  .text-stroke-primary {
+    -webkit-text-stroke: 2px #FF6F61;
+    color: transparent;
+  }
+
+  /* Hover interactive lift */
+  .brutal-btn {
+    transition: transform 0.15s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.15s cubic-bezier(0.2, 0, 0, 1);
+  }
+  .brutal-btn:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 8px 8px 0px #333333;
+  }
+  .brutal-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #333333;
+  }
+}
+
+/* Custom marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFDF9;
+  border-left: 3px solid #333333;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF6F61;
+  border: 3px solid #333333;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFD700;
+}
+
+/* Hide Default Cursor Globally for Custom Neo-Brutalist Cursor */
+@media (pointer: fine) {
+  *, body, a, button, input, select, textarea, [role="button"], label, .cursor-pointer, [data-cursor], [onClick] {
+    cursor: none !important;
+  }
+}
+
+/* Lenis Smooth Scroll Recommended Styles */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
