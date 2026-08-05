@@ -95,7 +95,7 @@ export const Footer: React.FC = () => {
         {/* Copyright */}
         <div className="py-6 flex items-center justify-between font-inter text-xs text-white/60">
           <div>
-            © {new Date().getFullYear()} © 2026 Dhruv Patel. Designed & Developed with React, TypeScript and Tailwind CSS.
+            © {new Date().getFullYear()} Dhruv Patel. Designed & Developed with React, TypeScript and Tailwind CSS.
           </div>
         </div>
 
