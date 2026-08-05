@@ -43,9 +43,9 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate }) => 
   };
 
   return (
-    <header className={`fixed top-5 md:top-6 left-0 right-0 z-50 transition-all duration-300 px-3 md:px-6`}>
-      <div className="max-w-7xl mx-auto">
-        <div className={`bg-[#FFFDF9] border-3 border-[#333333] rounded-2xl md:rounded-full px-4 py-3 md:px-6 flex items-center justify-between transition-all duration-300 ${
+    <header className={`fixed top-3 md:top-5 left-2 right-2 md:left-0 md:right-0 z-50 transition-all duration-300 px-0 md:px-6`}>
+      <div className="mx-auto max-w-full md:max-w-7xl">
+        <div className={`bg-[#FFFDF9] border-3 border-[#333333] rounded-2xl md:rounded-full px-3 py-3 md:px-6 flex flex-wrap items-center justify-between gap-3 transition-all duration-300 ${
           scrolled ? 'brutal-shadow-md py-2.5 bg-[#FFFDF9]/95 backdrop-blur-md' : 'brutal-shadow'
         }`}>
           
@@ -66,28 +66,27 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate }) => 
               <span className="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-[#00FF7F] border-2 border-[#333333] rounded-full animate-pulse" title="Available for work" />
             </div>
             
-            <div className="hidden sm:block">
-              <div className="font-syne font-bold text-base text-[#333333] leading-none flex items-center gap-1.5">
+            <div className="hidden sm:flex flex-col">
+              <div className="font-syne font-bold text-sm md:text-base text-[#333333] leading-none flex items-center gap-1.5">
                 DHRUV PATEL
-                <span className="text-xs px-1.5 py-0.5 bg-[#FF6F61] text-white rounded font-mono border border-[#333333]">DEV</span>
+                <span className="text-[10px] md:text-xs px-1.5 py-0.5 bg-[#FF6F61] text-white rounded font-mono border border-[#333333]">DEV</span>
               </div>
-              <div className="font-inter text-xs font-semibold text-[#333333]/70 leading-tight mt-0.5">
+              <div className="font-inter text-[10px] sm:text-xs font-semibold text-[#333333]/70 leading-tight mt-0.5">
                 Full Stack Developer • Ahmedabad
               </div>
             </div>
           </button>
 
-          {/* Middle: Nav Pill Navigation Container */}
-          <nav className="hidden lg:flex items-center gap-1 bg-transparent p-1">
+          <nav className="hidden lg:flex items-center gap-2">
             {navItems.map((item) => {
               const isActive = activeSection === item.id;
               return (
                 <button
                   key={item.id}
                   onClick={() => handleNavClick(item.id)}
-                  className={`px-4 py-1.5 text-xs font-syne font-bold uppercase tracking-wider rounded-full transition-all duration-200 cursor-pointer ${
+                  className={`px-3 py-1 text-[10px] sm:text-xs font-syne font-bold uppercase tracking-wider rounded-full transition-all duration-200 cursor-pointer ${
                     isActive
-                      ? 'bg-[#FFD700] text-[#333333] border-2 border-[#333333] translate-y-[-1px] shadow-[2px_2px_0px_#000000]'
+                      ? 'bg-[#FFD700] text-[#333333] border-2 border-[#333333] shadow-[2px_2px_0px_#000000]'
                       : 'text-[#333333] hover:text-[#FF6F61] hover:bg-[#FFD700]/25'
                   }`}
                 >
@@ -98,7 +97,7 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate }) => 
           </nav>
 
           {/* Right: Actions (Sound Toggle + CTA Email Me Button) */}
-          <div className="flex items-center gap-2 md:gap-3">
+          <div className="flex flex-wrap items-center gap-2 md:gap-3">
             {/* Sound Synthesizer Toggle */}
             <button
               onClick={handleSoundToggle}
@@ -137,7 +136,7 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate }) => 
         {/* Mobile Dropdown Menu */}
         {mobileMenuOpen && (
           <div className="lg:hidden mt-2 bg-[#FFFDF9] border-3 border-[#333333] rounded-2xl p-4 brutal-shadow-lg animate-in slide-in-from-top-2 duration-200">
-            <div className="grid grid-cols-2 gap-2 mb-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
               {navItems.map((item) => (
                 <button
                   key={item.id}

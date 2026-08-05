@@ -155,7 +155,7 @@ export const Contact: React.FC = () => {
                 FIND ME ON SOCIAL MEDIA
               </div>
 
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                 <a
                   href={PERSONAL_INFO.socials.github}
                   target="_blank"
