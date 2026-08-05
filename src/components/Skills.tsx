@@ -142,8 +142,8 @@ export const Skills: React.FC = () => {
                 <Flame className="w-3.5 h-3.5 text-[#FF6F61]" />
                 <span>02 / TECHNICAL ARSENAL</span>
               </div>
-              <h2 className="font-syne font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#333333] tracking-tight leading-none mb-4">
-                SKILLS & <span className="text-[#FF6F61] underline decoration-[#FFD700] decoration-wavy decoration-3">STACK</span>
+              <h2 className="font-syne font-extrabold text-3xl min-[430px]:text-4xl sm:text-5xl lg:text-6xl text-[#333333] tracking-tight leading-tight mb-4">
+                SKILLS & <span className="text-[#FF6F61] underline decoration-[#FFD700] decoration-wavy decoration-[2px] min-[430px]:decoration-3">STACK</span>
               </h2>
               <p className="font-inter text-xs sm:text-sm text-[#555555] font-medium leading-relaxed">
                 Core web engineering pillars. Select any sub-skill pill in the cards to explore specialized tools, frameworks & proficiency levels.

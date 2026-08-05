@@ -25,9 +25,9 @@ export const Experience: React.FC = () => {
             <span>03 / CAREER TIMELINE</span>
           </div>
 
-          <h2 className="font-syne font-extrabold text-4xl sm:text-6xl text-[#333333] tracking-tight">
+          <h2 className="font-syne font-extrabold text-3xl min-[430px]:text-4xl sm:text-6xl text-[#333333] tracking-tight leading-tight">
             WORK{" "}
-            <span className="bg-[#FFD700] text-[#333333] px-3 py-0.5 rounded-xl border-[3px] border-[#333333] inline-block rotate-1 shadow-[4px_4px_0_#333333]">
+            <span className="bg-[#FFD700] text-[#333333] px-2 min-[430px]:px-3 py-0.5 rounded-xl border-2 min-[430px]:border-[3px] border-[#333333] inline-block rotate-1 shadow-[4px_4px_0_#333333] mt-1 mb-2">
               EXPERIENCE
             </span>
           </h2>
@@ -57,19 +57,19 @@ export const Experience: React.FC = () => {
                 className="bg-[#F4F3F1] border-[3px] border-[#333333] rounded-[28px] p-6 sm:p-8 transition-all duration-200 hover:-translate-y-1 hover:shadow-[8px_8px_0_#333333]"
               >
                 {/* Header */}
-                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 border-b-[3px] border-[#333333] pb-6">
+                <div className="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-6 border-b-[3px] border-[#333333] pb-6">
 
-                  <div className="flex items-center gap-4">
-                    <div className="w-14 h-14 rounded-xl bg-[#FF6F61] border-[3px] border-[#333333] flex items-center justify-center shadow-[4px_4px_0_#333333]">
+                  <div className="flex items-center gap-4 w-full min-w-0">
+                    <div className="w-14 h-14 rounded-xl bg-[#FF6F61] border-[3px] border-[#333333] flex items-center justify-center shadow-[4px_4px_0_#333333] shrink-0">
                       <Briefcase className="w-6 h-6 text-white" />
                     </div>
 
-                    <div>
-                      <h3 className="font-syne font-extrabold text-3xl sm:text-5xl md:text-6xl leading-none tracking-[-0.06em] text-[#333333]">
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-syne font-extrabold text-xl min-[430px]:text-2xl sm:text-5xl md:text-6xl leading-tight tracking-tight text-[#333333]">
                         {item.company}
                       </h3>
 
-                      <p className="mt-3 font-syne font-bold text-xl sm:text-2xl text-[#FF6F61]">
+                      <p className="mt-1 sm:mt-3 font-syne font-bold text-base sm:text-2xl text-[#FF6F61]">
                         {item.role}
                       </p>
                     </div>

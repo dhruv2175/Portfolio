@@ -154,10 +154,13 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate }) => 
 
             <a
               href="mailto:dspatel2175@gmail.com"
-              className="w-full flex items-center justify-center gap-2 bg-[#FF6F61] text-white py-3 rounded-xl font-syne font-bold text-sm uppercase border-2 border-[#333333] brutal-shadow-sm"
+              className="w-full flex flex-col items-center justify-center gap-1 bg-[#FF6F61] text-white py-3 rounded-xl font-syne font-bold text-sm uppercase border-2 border-[#333333] brutal-shadow-sm text-center"
             >
-              <Mail className="w-4 h-4" />
-              Email Me (dspatel2175@gmail.com)
+              <div className="flex items-center gap-2">
+                <Mail className="w-4 h-4" />
+                <span>Email Me</span>
+              </div>
+              <span className="text-[10px] tracking-wider normal-case lowercase">(dspatel2175@gmail.com)</span>
             </a>
           </div>
         )}

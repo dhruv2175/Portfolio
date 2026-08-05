@@ -23,8 +23,8 @@ export const About: React.FC = () => {
             <Sparkles className="w-3.5 h-3.5 text-[#FF6F61]" />
             <span>01 / ABOUT ME</span>
           </div>
-          <h2 className="font-syne font-extrabold text-4xl sm:text-6xl text-[#333333] tracking-tight">
-            NOT YOUR AVERAGE <span className="bg-[#FF6F61] text-white px-3 py-0.5 rounded-xl border-3 border-[#333333] inline-block -rotate-1 brutal-shadow-sm">DEVELOPER.</span>
+          <h2 className="font-syne font-extrabold text-3xl min-[430px]:text-4xl sm:text-6xl text-[#333333] tracking-tight leading-tight">
+            NOT YOUR AVERAGE <span className="bg-[#FF6F61] text-white px-2 min-[430px]:px-3 py-0.5 rounded-xl border-2 min-[430px]:border-3 border-[#333333] inline-block -rotate-1 brutal-shadow-sm mt-1 mb-2">DEVELOPER.</span>
           </h2>
         </motion.div>
 

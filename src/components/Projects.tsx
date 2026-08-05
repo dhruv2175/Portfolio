@@ -38,8 +38,8 @@ export const Projects: React.FC<ProjectsProps> = ({ onOpenCaseStudy }) => {
             <Sparkles className="w-3.5 h-3.5 text-[#FFD700]" />
             <span>04 / PROJECTS SHOWCASE</span>
           </div>
-          <h2 className="font-syne font-extrabold text-4xl sm:text-6xl text-[#333333] tracking-tight">
-            FEATURED <span className="bg-[#00BFFF] text-white px-3 py-0.5 rounded-xl border-3 border-[#333333] inline-block -rotate-1 brutal-shadow-sm">PROFILE</span>
+          <h2 className="font-syne font-extrabold text-3xl min-[430px]:text-4xl sm:text-6xl text-[#333333] tracking-tight leading-tight">
+            FEATURED <span className="bg-[#00BFFF] text-white px-2 min-[430px]:px-3 py-0.5 rounded-xl border-2 min-[430px]:border-3 border-[#333333] inline-block -rotate-1 brutal-shadow-sm mt-1 mb-2">PROFILE</span>
           </h2>
           <p className="font-inter text-base text-[#666666] font-medium mt-2 max-w-xl">
            Creating modern web applications, AI-powered projects, and seamless digital experiences with React, Python, FastAPI, and MySQL.

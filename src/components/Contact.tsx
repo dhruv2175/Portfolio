@@ -86,9 +86,9 @@ export const Contact: React.FC = () => {
             <Mail className="w-3.5 h-3.5 text-[#FFD700]" />
             <span>05 / GET IN TOUCH</span>
           </div>
-          <h2 className="font-syne font-extrabold text-4xl sm:text-7xl text-[#333333] tracking-tight leading-none">
+          <h2 className="font-syne font-extrabold text-3xl min-[430px]:text-4xl sm:text-7xl text-[#333333] tracking-tight leading-none break-words">
             LET'S BUILD SOMETHING <br className="hidden sm:inline" />
-            <span className="bg-[#FFD700] text-[#333333] px-3 py-0.5 rounded-xl border-3 border-[#333333] inline-block rotate-1 brutal-shadow-sm mt-2">
+            <span className="bg-[#FFD700] text-[#333333] px-2 min-[430px]:px-3 py-0.5 rounded-xl border-2 min-[430px]:border-3 border-[#333333] inline-block rotate-1 brutal-shadow-sm mt-2 max-w-full">
               UNFORGETTABLE.
             </span>
           </h2>
