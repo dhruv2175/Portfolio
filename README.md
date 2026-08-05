@@ -1,7 +1,7 @@
 Dhruv Patel — Portfolio Website
 Personal portfolio website showcasing my projects, skills, and experience as a Full Stack Developer.
 
-🔗 Live Site: pateldhruvvvportfolio.vercel.app
+🔗 Live Site: dhruvvv-codes.vercel.app
 
 
 📖 About
@@ -67,13 +67,13 @@ Open the local URL shown in your terminal to view it locally.
 📦 Deployment
 This project is deployed on Vercel. Any push to the main branch automatically triggers a new deployment.
 
-Live URL: https://pateldhruvvvportfolio.vercel.app/
+Live URL: https://dhruvvv-codes.vercel.app
 
 
 📬 Contact
 Dhruv Patel
 
-Portfolio: pateldhruvvvportfolio.vercel.app
+Portfolio: dhruvvv-codes.vercel.app
 
 
 📄 License
