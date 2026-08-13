@@ -173,17 +173,17 @@ export const SKILLS_DATA: Skill[] = [
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     company: "Upstackers Technologies",
-    role: "Graphic & UI Design Intern",
+    role: "Python Developer Intern",
     period: "Internship",
     location: "Ahmedabad, India",
-    accent: "#FFD700",
+    accent: "#3776AB",
     highlights: [
-      "Designed SaaS product UI mockups and custom icon sets using Figma.",
-      "Crafted social media marketing banners, product brochures, and promotional materials in Photoshop and Illustrator.",
-      "Evolved and maintained company brand guidelines to guarantee visual consistency across digital assets.",
-      "Collaborated closely with product managers and developers to transition Figma mockups to pixel-perfect code layouts."
+      "Developed and maintained Python modules for backend functionality.",
+      "Assisted in building and testing REST APIs.",
+      "Worked with SQL databases to perform CRUD operations.",
+      "Debugged and resolved application issues under senior developer guidance."
     ],
-    technologies: ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Design Systems"]
+    technologies: ["Python", "REST APIs", "SQL"]
   }
 ];
 
