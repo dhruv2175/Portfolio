@@ -5,14 +5,14 @@ import signaturePortrait from '../img/WhatsApp Image 2026-07-17 at 12.45.42 (1).
 
 export const PERSONAL_INFO = {
   name: "Dhruv Patel",
-  title: "Full Stack Developer",
+  title: "Graphic & SaaS Product Designer",
   location: "Ahmedabad, Gujarat, India",
   experience: "B.Tech Computer Engineering (2023–2027)",
   email: "dspatel2175@gmail.com",
   phone: "+91 99097 52175",
-  bio: "Aspiring React Developer with hands-on experience in building responsive and user-friendly web applications using React.js, JavaScript, HTML, and CSS. Skilled in integrating REST APIs, managing application state, and developing reusable UI components. Familiar with FastAPI, MySQL, and Git, enabling effective collaboration in full-stack development.",
-  quote: "Passionate about creating clean, scalable, and high-performance web applications.",
-  specializations: ["React.js & Responsive Web Applications", "REST API Integration & State Management", "FastAPI & Full-Stack Development", "MySQL & MongoDB"],
+  bio: "Creative and detail-oriented Graphic & SaaS Product Designer based in Ahmedabad. Equipped with advanced expertise in Figma for high-fidelity UI/UX prototyping and design systems, and Adobe Photoshop for digital graphic editing. Possesses solid foundational knowledge and hands-on familiarity with Adobe Illustrator (for vector graphics and custom illustrations) and Adobe InDesign (for professional layouts and brand guidelines). Passionate about crafting visually stunning user interface elements, building clean layouts, and collaborating with cross-functional product and engineering teams to build high-performance solutions.",
+  quote: "Passionate about creating visually stunning, user-centric, and high-performance digital experiences.",
+  specializations: ["Figma & High-Fidelity UI/UX Prototyping", "Adobe Photoshop & Digital Graphic Design", "Adobe Illustrator (Vector Art & Custom Icons)", "Adobe InDesign (Layout & Brand Guidelines)"],
   socials: {
     github: "https://github.com/dhruv2175",
     linkedin: "https://www.linkedin.com/in/pateldhruvvv",
@@ -24,255 +24,166 @@ export const PERSONAL_INFO = {
 
 export const MAIN_SKILL_PILLARS: SkillPillar[] = [
   {
-    id: "react-frontend",
-    title: "React & Frontend",
-    subtitle: "Responsive web applications with React.js, JavaScript, HTML, and CSS.",
-    category: "Frontend & UI",
-    accent: "#61DAFB",
-    bgAccent: "#61DAFB15",
-    iconName: "Globe",
-    experience: "HANDS-ON",
-    subSkills: [
-      { name: "React.js", level: "Hands-on", description: "Building responsive and user-friendly web applications with reusable UI components.", badge: "CORE" },
-      { name: "JavaScript (ES6+)", level: "Skilled", description: "Modern JavaScript for client-side interactivity and application logic.", badge: "CORE" },
-      { name: "HTML5 & CSS3", level: "Skilled", description: "Semantic markup and styling for responsive web layouts.", badge: "CORE" },
-      { name: "Responsive Web Design", level: "Skilled", description: "Layouts optimized for desktop and mobile devices.", badge: "UI" },
-      { name: "State Management", level: "Skilled", description: "Managing application state in React-based frontends.", badge: "CORE" }
-    ]
-  },
-  {
-    id: "python-backend",
-    title: "Python & Backend",
-    subtitle: "Backend functionality with Python, FastAPI, and RESTful APIs.",
-    category: "Backend & DB",
-    accent: "#3776AB",
-    bgAccent: "#3776AB15",
-    iconName: "Code2",
-    experience: "FAMILIAR",
-    subSkills: [
-      { name: "Python", level: "Hands-on", description: "Developed and maintained Python modules for backend functionality.", badge: "CORE" },
-      { name: "FastAPI", level: "Familiar", description: "Backend API development for full-stack web applications.", badge: "API" },
-      { name: "RESTful APIs", level: "Skilled", description: "Building, testing, and integrating REST APIs across the stack.", badge: "API" },
-      { name: "Java", level: "Skilled", description: "Object-oriented programming with Java.", badge: "LANG" }
-    ]
-  },
-  {
-    id: "databases",
-    title: "Databases & SQL",
-    subtitle: "Relational and document database work with SQL, MySQL, and MongoDB.",
-    category: "Backend & DB",
-    accent: "#00758F",
-    bgAccent: "#00758F15",
-    iconName: "Cpu",
-    experience: "FAMILIAR",
-    subSkills: [
-      { name: "MySQL", level: "Familiar", description: "Working with SQL databases for application data storage.", badge: "SQL" },
-      { name: "MongoDB", level: "Familiar", description: "Document database usage in full-stack projects.", badge: "NOSQL" },
-      { name: "SQL", level: "Skilled", description: "Performing CRUD operations and database queries.", badge: "CORE" }
-    ]
-  },
-  {
-    id: "ui-frameworks",
-    title: "UI Frameworks & Design",
-    subtitle: "Tailwind CSS, Bootstrap styling, and design tools including Figma and Canva.",
-    category: "Frontend & UI",
-    accent: "#06B6D4",
-    bgAccent: "#06B6D415",
+    id: "figma-uiux",
+    title: "Figma & UI/UX Design",
+    subtitle: "Creating interactive, user-centric SaaS product interfaces, custom design systems, and responsive layouts.",
+    category: "Product & UI/UX",
+    accent: "#F24E1E",
+    bgAccent: "#F24E1E15",
     iconName: "Figma",
-    experience: "SKILLED",
+    experience: "EXPERT",
     subSkills: [
-      { name: "Tailwind CSS", level: "Skilled", description: "Utility-first CSS styling for responsive React applications.", badge: "CSS" },
-      { name: "Bootstrap", level: "Skilled", description: "Responsive layout and component styling with Bootstrap.", badge: "CSS" },
-      { name: "Figma", level: "Skilled", description: "UI/UX design and layout work with Figma.", badge: "DESIGN" },
-      { name: "Canva", level: "Skilled", description: "Visual design and asset creation with Canva.", badge: "DESIGN" }
+      { name: "Figma", level: "Expert", description: "Creating pixel-perfect high-fidelity mockups, vector shapes, and user journeys.", badge: "CORE" },
+      { name: "Design Systems", level: "Skilled", description: "Developing reusable UI component libraries, typography, and color tokens.", badge: "SAAS" },
+      { name: "Interactive Prototyping", level: "Skilled", description: "Configuring user flows, transitions, and component states for validation.", badge: "UX" },
+      { name: "SaaS Interface Design", level: "Skilled", description: "Optimizing dashboard structures, layouts, and data visualizations.", badge: "PRODUCT" },
+      { name: "Responsive Layouts", level: "Skilled", description: "Designing interfaces optimized for both mobile devices and wide desktop screens.", badge: "UI" }
     ]
   },
   {
-    id: "dev-tools",
-    title: "Development Tools",
-    subtitle: "Version control, API testing, and development workflow tooling.",
-    category: "AI & Tools",
-    accent: "#FFD700",
-    bgAccent: "#FFD70020",
-    iconName: "Sparkles",
+    id: "adobe-photoshop",
+    title: "Adobe Photoshop",
+    subtitle: "High-impact digital imaging, graphic editing, marketing collaterals, and asset preparation.",
+    category: "Graphic Design",
+    accent: "#31A8FF",
+    bgAccent: "#31A8FF15",
+    iconName: "Palette",
     experience: "SKILLED",
     subSkills: [
-      { name: "Git & GitHub", level: "Skilled", description: "Version control and collaborative development with Git and GitHub.", badge: "TOOLS" },
-      { name: "Postman", level: "Skilled", description: "Testing and debugging REST APIs during development.", badge: "TOOLS" },
-      { name: "VS Code", level: "Skilled", description: "Primary development environment for frontend and backend work.", badge: "TOOLS" }
+      { name: "Image Manipulation", level: "Skilled", description: "Advanced compositing, photo retouching, and color grading.", badge: "CORE" },
+      { name: "Marketing Graphics", level: "Skilled", description: "Designing digital banners, social media assets, and promotional banners.", badge: "CREATIVE" },
+      { name: "Texture & Mockups", level: "Skilled", description: "Creating realistic product previews and custom graphical elements.", badge: "ASSETS" },
+      { name: "Raster Art", level: "Skilled", description: "Crafting digital assets with custom brushes, layers, and masks.", badge: "EDITING" }
+    ]
+  },
+  {
+    id: "adobe-illustrator",
+    title: "Adobe Illustrator",
+    subtitle: "Vector illustrations, custom iconography, logo design, and scalable graphic assets.",
+    category: "Vector & Assets",
+    accent: "#FF9A00",
+    bgAccent: "#FF9A0015",
+    iconName: "Sparkles",
+    experience: "FAMILIAR",
+    subSkills: [
+      { name: "Vector Illustration", level: "Familiar", description: "Creating resolution-independent digital drawings and artwork.", badge: "VECTOR" },
+      { name: "Iconography", level: "Skilled", description: "Designing custom UI icon sets aligned with brand guidelines.", badge: "UI" },
+      { name: "Logo Design", level: "Familiar", description: "Formulating scalable brand logomarks and visual assets.", badge: "BRANDING" }
+    ]
+  },
+  {
+    id: "adobe-indesign",
+    title: "Adobe InDesign",
+    subtitle: "Multi-page layout design, brochures, print-ready marketing materials, and digital portfolios.",
+    category: "Print & Layout",
+    accent: "#FF1493",
+    bgAccent: "#FF149315",
+    iconName: "BookOpen",
+    experience: "FAMILIAR",
+    subSkills: [
+      { name: "Layout Design", level: "Familiar", description: "Creating grids and master page layouts for booklets and guides.", badge: "PRINT" },
+      { name: "Brochures & Flyers", level: "Familiar", description: "Designing professional multi-page brochures and single-page flyers.", badge: "COLLATERAL" },
+      { name: "Typography & Print PDF", level: "Familiar", description: "Setting precise paragraph styles and preparing print-ready exports.", badge: "LAYOUT" }
+    ]
+  },
+  {
+    id: "branding-collab",
+    title: "Brand Strategy & Collab",
+    subtitle: "Evolving brand guidelines and collaborating with marketing and product development teams.",
+    category: "Workflow & Strategy",
+    accent: "#00FF7F",
+    bgAccent: "#00FF7F15",
+    iconName: "Users",
+    experience: "SKILLED",
+    subSkills: [
+      { name: "Brand Guidelines", level: "Skilled", description: "Defining and maintaining color palettes, typography systems, and visual consistency.", badge: "BRAND" },
+      { name: "Dev Collaboration", level: "Skilled", description: "Ensuring smooth handoff of assets and CSS/layout specs to engineering.", badge: "COLLAB" },
+      { name: "Marketing Support", level: "Skilled", description: "Designing high-conversion email templates and marketing campaign assets.", badge: "MARKETING" }
     ]
   }
 ];
 
 export const SKILLS_DATA: Skill[] = [
   {
-    name: "WordPress",
-    category: "CMS & E-Commerce",
-    level: "Expert",
-    accent: "#FF6F61",
-    iconName: "Globe",
-    description: "Custom core development, multi-site architecture, Gutenberg block extension, database scaling."
-  },
-  {
-    name: "Shopify",
-    category: "CMS & E-Commerce",
-    level: "Expert",
-    accent: "#96BF48",
-    iconName: "ShoppingBag",
-    description: "Liquid theme engineering, custom app integrations, checkout extensions, Dawn customization."
-  },
-  {
-    name: "PHP",
-    category: "Backend & DB",
-    level: "Advanced",
-    accent: "#777BB4",
-    iconName: "Code2",
-    description: "Object-oriented PHP 8.x, PSR compliance, custom ORM bindings, REST & GraphQL endpoints."
-  },
-  {
-    name: "React",
-    category: "Frontend",
-    level: "Advanced",
-    accent: "#61DAFB",
-    iconName: "Globe",
-    description: "Component-driven UIs, reusable frontend architecture, responsive interfaces, and modern React patterns."
-  },
-  {
-    name: "MySQL",
-    category: "Backend & DB",
-    level: "Advanced",
-    accent: "#00758F",
-    iconName: "Database",
-    description: "Schema design, query indexing, ACID transaction management, relational mapping."
-  },
-  {
-    name: "Bootstrap",
-    category: "Frontend",
-    level: "Advanced",
-    accent: "#7952B3",
-    iconName: "Layout",
-    description: "Grid architectures, custom Sass overrides, responsive layout utility development."
-  },
-  {
-    name: "Tailwind",
-    category: "Frontend",
-    level: "Expert",
-    accent: "#06B6D4",
-    iconName: "Wind",
-    description: "Utility-first CSS styling, JIT compiler configuration, custom design system tokens."
-  },
-  {
-    name: "JavaScript",
-    category: "Frontend",
-    level: "Expert",
-    accent: "#F7DF1E",
-    iconName: "Terminal",
-    description: "ES6+ modern syntax, asynchronous API handling, DOM manipulation, custom web components."
-  },
-  {
-    name: "jQuery",
-    category: "Frontend",
-    level: "Advanced",
-    accent: "#0769AD",
-    iconName: "Zap",
-    description: "Legacy code refactoring, DOM traversal, event delegation, Ajax asynchronous pipelines."
-  },
-  {
-    name: "ACF",
-    category: "CMS & E-Commerce",
-    level: "Expert",
-    accent: "#00FF7F",
-    iconName: "Edit3",
-    description: "Advanced Custom Fields Pro, custom flexible layouts, Gutenberg block creation, option pages."
-  },
-  {
-    name: "Elementor",
-    category: "CMS & E-Commerce",
-    level: "Expert",
-    accent: "#92003B",
-    iconName: "Box",
-    description: "Custom Elementor widget development, dynamic tag integrations, design kit creation."
-  },
-  {
-    name: "Divi",
-    category: "CMS & E-Commerce",
-    level: "Advanced",
-    accent: "#8A2BE2",
-    iconName: "Palette",
-    description: "Custom module building, layout builder customization, child theme architecture."
-  },
-  {
-    name: "Oxygen",
-    category: "CMS & E-Commerce",
-    level: "Advanced",
-    accent: "#00BFFF",
-    iconName: "Maximize2",
-    description: "Visual builder customization, custom code blocks, dynamic query loops."
-  },
-  {
-    name: "Sage",
-    category: "CMS & E-Commerce",
-    level: "Expert",
-    accent: "#FFD700",
-    iconName: "Cpu",
-    description: "Roots Sage 10 theme framework, Blade templating, Acorn framework, modern asset bundling."
-  },
-  {
-    name: "Plugin Development",
-    category: "CMS & E-Commerce",
-    level: "Expert",
-    accent: "#FF4081",
-    iconName: "Puzzle",
-    description: "Bespoke WordPress plugin development, hooks & filters API, custom database tables, cron jobs."
-  },
-  {
-    name: "Theme Development",
-    category: "CMS & E-Commerce",
-    level: "Expert",
-    accent: "#FF6F61",
-    iconName: "Sparkles",
-    description: "Pixel-perfect custom theme creation, lightweight asset loaders, zero bloat, Accessibility ready."
-  },
-  {
-    name: "API Integration",
-    category: "Backend & DB",
-    level: "Expert",
-    accent: "#00FF7F",
-    iconName: "Share2",
-    description: "RESTful APIs, GraphQL, Stripe, PayPal, HubSpot, Salesforce, Webhooks & OAuth 2.0."
-  },
-  {
     name: "Figma",
-    category: "Development Tools",
-    level: "Advanced",
+    category: "Product & UI/UX",
+    level: "Expert",
     accent: "#F24E1E",
     iconName: "Figma",
-    description: "Figma-to-Code pixel perfection, component design systems, auto-layout inspection."
+    description: "Figma-to-Code pixel perfection, design systems, auto-layout, interactive prototypes, and component libraries."
   },
   {
-    name: "Webflow",
-    category: "Development Tools",
+    name: "Adobe Photoshop",
+    category: "Graphic Design",
     level: "Advanced",
-    accent: "#4353FF",
+    accent: "#31A8FF",
+    iconName: "Palette",
+    description: "Image manipulation, photo editing, visual compositing, and creative marketing banner design."
+  },
+  {
+    name: "Adobe Illustrator",
+    category: "Vector & Assets",
+    level: "Intermediate",
+    accent: "#FF9A00",
+    iconName: "Sparkles",
+    description: "Scalable vector graphics, custom icon design, logo creation, and brand elements."
+  },
+  {
+    name: "Adobe InDesign",
+    category: "Print & Layout",
+    level: "Intermediate",
+    accent: "#FF1493",
+    iconName: "BookOpen",
+    description: "Multi-page brochure layouts, print-ready document setups, grid-based typography, and flyers."
+  },
+  {
+    name: "SaaS UI Design",
+    category: "Product & UI/UX",
+    level: "Advanced",
+    accent: "#FF6F61",
+    iconName: "Layout",
+    description: "Dashboard wireframing, interactive data visualization tables, and user flow optimization."
+  },
+  {
+    name: "Brand Guidelines",
+    category: "Workflow & Strategy",
+    level: "Advanced",
+    accent: "#00FF7F",
+    iconName: "CheckCircle",
+    description: "Maintaining visual consistency, defining style tiles, color systems, and corporate identity."
+  },
+  {
+    name: "Marketing Materials",
+    category: "Graphic Design",
+    level: "Advanced",
+    accent: "#92003B",
+    iconName: "Maximize2",
+    description: "Designing digital brochures, newsletter graphics, email templates, and high-impact social media assets."
+  },
+  {
+    name: "Responsive Layouts",
+    category: "Product & UI/UX",
+    level: "Advanced",
+    accent: "#06B6D4",
     iconName: "Monitor",
-    description: "CMS collections, custom JavaScript embeds, interaction design & animations."
+    description: "Creating fluid grid systems and adaptive UI designs that transition seamlessly from mobile to desktop."
   }
 ];
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     company: "Upstackers Technologies",
-    role: "Python Developer Intern",
+    role: "Graphic & UI Design Intern",
     period: "Internship",
     location: "Ahmedabad, India",
-    accent: "#3776AB",
+    accent: "#FFD700",
     highlights: [
-      "Developed and maintained Python modules for backend functionality.",
-      "Assisted in building and testing REST APIs.",
-      "Worked with SQL databases to perform CRUD operations.",
-      "Debugged and resolved application issues under senior developer guidance."
+      "Designed SaaS product UI mockups and custom icon sets using Figma.",
+      "Crafted social media marketing banners, product brochures, and promotional materials in Photoshop and Illustrator.",
+      "Evolved and maintained company brand guidelines to guarantee visual consistency across digital assets.",
+      "Collaborated closely with product managers and developers to transition Figma mockups to pixel-perfect code layouts."
     ],
-    technologies: ["Python", "REST APIs", "SQL"]
+    technologies: ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Design Systems"]
   }
 ];
 
@@ -415,12 +326,12 @@ export const PROJECTS_DATA: Project[] = [
 export const PROFILE_IMAGES = [
   {
     url: portraitGreen,
-    alt: "Dhruv Patel — Green portrait hero image",
+    alt: "Dhruv Patel — Graphic & SaaS Product Designer",
     rotation: "-2deg"
   },
   {
     url: oceanWave,
-    alt: "Dhruv Patel — Ocean wave artistic portrait",
+    alt: "Dhruv Patel — Art & UI/UX portfolio portrait",
     rotation: "2deg"
   },
   {

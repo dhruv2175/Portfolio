@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
               DHRUV PATEL
             </div>
             <p className="font-inter text-xs sm:text-sm text-white/70 font-medium">
-              Full Stack Developer • Based in Ahmedabad, India
+              Graphic & SaaS Product Designer • Based in Ahmedabad, India
             </p>
           </div>
 

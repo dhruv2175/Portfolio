@@ -69,10 +69,10 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate }) => 
             <div className="hidden sm:flex flex-col">
               <div className="font-syne font-bold text-sm md:text-base text-[#333333] leading-none flex items-center gap-1.5">
                 DHRUV PATEL
-                <span className="text-[10px] md:text-xs px-1.5 py-0.5 bg-[#FF6F61] text-white rounded font-mono border border-[#333333]">DEV</span>
+                <span className="text-[10px] md:text-xs px-1.5 py-0.5 bg-[#FF6F61] text-white rounded font-mono border border-[#333333]">DESIGN</span>
               </div>
               <div className="font-inter text-[10px] sm:text-xs font-semibold text-[#333333]/70 leading-tight mt-0.5">
-                Full Stack Developer • Ahmedabad
+                Graphic & SaaS Product Designer • Ahmedabad
               </div>
             </div>
           </button>

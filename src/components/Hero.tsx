@@ -71,12 +71,12 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
           <div className="inline-flex items-center gap-2 bg-[#FFFFFF] border-3 border-[#333333] px-4 py-2 rounded-full brutal-shadow-sm font-inter font-bold text-xs uppercase tracking-widest text-[#333333]">
             <span className="w-2.5 h-2.5 bg-[#00FF7F] rounded-full border border-[#333333] animate-ping" />
             <MapPin className="w-3.5 h-3.5 text-[#FF6F61]" />
-            <span>AHMEDABAD, INDIA • FULL STACK DEVELOPER</span>
+            <span>AHMEDABAD, INDIA • GRAPHIC & SAAS PRODUCT DESIGNER</span>
           </div>
 
           <h1 className="font-syne font-extrabold text-4xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight leading-[0.95] text-[#FF6F61] drop-shadow-[4px_4px_0px_#333333] max-w-5xl mx-auto text-center flex flex-col items-center justify-center pt-2 sm:pt-3">
-            <span className="block text-center w-full">BUILDING</span>
-            <span className="block text-center w-full">IMPACT</span>
+            <span className="block text-center w-full">CREATING</span>
+            <span className="block text-center w-full">VISUALS</span>
           </h1>
         </motion.div>
 
@@ -88,7 +88,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
           className="w-full max-w-3xl mx-auto px-2"
         >
           <p className="font-inter font-medium text-base sm:text-lg lg:text-xl text-[#333333]/90 leading-relaxed text-center">
-            Aspiring React Developer crafting responsive web applications with JavaScript, React.js, HTML, CSS, and REST API integrations — focused on clean interfaces, smooth user experiences, and scalable full-stack solutions.
+            Creative Graphic & SaaS Product Designer specializing in user-friendly Figma interfaces, high-quality Adobe Photoshop assets, and brand design layouts with Illustrator and InDesign — focused on clean aesthetics, visual consistency, and seamless developer handoff.
           </p>
         </motion.div>
 

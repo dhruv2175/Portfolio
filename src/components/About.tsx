@@ -24,7 +24,7 @@ export const About: React.FC = () => {
             <span>01 / ABOUT ME</span>
           </div>
           <h2 className="font-syne font-extrabold text-3xl min-[430px]:text-4xl sm:text-6xl text-[#333333] tracking-tight leading-tight">
-            NOT YOUR AVERAGE <span className="bg-[#FF6F61] text-white px-2 min-[430px]:px-3 py-0.5 rounded-xl border-2 min-[430px]:border-3 border-[#333333] inline-block -rotate-1 brutal-shadow-sm mt-1 mb-2">DEVELOPER.</span>
+            NOT YOUR AVERAGE <span className="bg-[#FF6F61] text-white px-2 min-[430px]:px-3 py-0.5 rounded-xl border-2 min-[430px]:border-3 border-[#333333] inline-block -rotate-1 brutal-shadow-sm mt-1 mb-2">DESIGNER.</span>
           </h2>
         </motion.div>
 
@@ -46,7 +46,7 @@ export const About: React.FC = () => {
               <div className="aspect-[4/5] rounded-2xl overflow-hidden border-2 border-[#333333] relative bg-[#333333]">
                 <img 
                   src={PROFILE_IMAGES[1].url} 
-                  alt="Dhruv Patel — Full Stack Developer"
+                  alt="Dhruv Patel — Graphic & SaaS Product Designer"
                   className="w-full h-full object-cover transition-all duration-500 hover:scale-105"
                 />
 
@@ -116,19 +116,19 @@ export const About: React.FC = () => {
             {/* About Main Card */}
             <div className="bg-[#FFFFFF] border-3 border-[#333333] p-6 sm:p-8 rounded-3xl brutal-shadow-lg relative">
               <h3 className="font-syne font-extrabold text-2xl sm:text-3xl text-[#333333] mb-4 flex items-center gap-2">
-                <span>Behind The Code</span>
+                <span>Behind The Designs</span>
                 <span className="w-3 h-3 bg-[#FF6F61] rounded-full border border-[#333333]" />
               </h3>
 
               <div className="space-y-4 font-inter text-base text-[#333333]/90 leading-relaxed">
                 <p>
-                  I'm <strong>Dhruv Patel</strong>, a <strong>Full Stack Developer</strong> based in <strong>Ahmedabad, Gujarat, India</strong>. I build responsive web applications using React.js, JavaScript, HTML, CSS, and REST APIs, with a strong focus on clean UI design and smooth user experience.
+                  I'm <strong>Dhruv Patel</strong>, a <strong>Graphic & SaaS Product Designer</strong> based in <strong>Ahmedabad, Gujarat, India</strong>. I specialize in crafting intuitive user interfaces and visually compelling design assets using modern tools like <strong>Figma</strong> and <strong>Adobe Photoshop</strong>.
                 </p>
                 <p>
-                  Beyond software development, I'm also a digital content creator, having built an audience of 5K+ Instagram followers and achieved 35M+ overall views through consistent short-form content. This experience has strengthened my creativity, storytelling, and understanding of audience engagement.
+                  Beyond design, I'm also a digital content creator, having built an audience of 5K+ Instagram followers and achieved 35M+ overall views through consistent short-form content. This experience has strengthened my creativity, storytelling, visual communication, and understanding of audience engagement.
                 </p>
                 <p>
-                  I enjoy solving real-world problems through technology, continuously learning new skills, and creating products that deliver meaningful experiences. Whether it's developing scalable applications or producing engaging digital content, I'm always excited to build, improve, and innovate.
+                  I enjoy translating complex user requirements into clean, user-friendly SaaS interfaces. By maintaining consistent design systems and brand guidelines, I bridge the gap between creative concepts and high-performance product execution.
                 </p>
               </div>
 
