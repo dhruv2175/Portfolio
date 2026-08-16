@@ -72,7 +72,7 @@ export const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate }) => 
                 <span className="text-[10px] md:text-xs px-1.5 py-0.5 bg-[#FF6F61] text-white rounded font-mono border border-[#333333]">DESIGN</span>
               </div>
               <div className="font-inter text-[10px] sm:text-xs font-semibold text-[#333333]/70 leading-tight mt-0.5">
-                Graphic & SaaS Product Designer • Ahmedabad
+                UI/UX Designer • Ahmedabad
               </div>
             </div>
           </button>

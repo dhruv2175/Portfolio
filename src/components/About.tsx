@@ -46,7 +46,7 @@ export const About: React.FC = () => {
               <div className="aspect-[4/5] rounded-2xl overflow-hidden border-2 border-[#333333] relative bg-[#333333]">
                 <img 
                   src={PROFILE_IMAGES[1].url} 
-                  alt="Dhruv Patel — Graphic & SaaS Product Designer"
+                  alt="Dhruv Patel — UI/UX Designer"
                   className="w-full h-full object-cover transition-all duration-500 hover:scale-105"
                 />
 
@@ -122,13 +122,13 @@ export const About: React.FC = () => {
 
               <div className="space-y-4 font-inter text-base text-[#333333]/90 leading-relaxed">
                 <p>
-                  I'm <strong>Dhruv Patel</strong>, a <strong>Graphic & SaaS Product Designer</strong> based in <strong>Ahmedabad, Gujarat, India</strong>. I specialize in crafting intuitive user interfaces and visually compelling design assets using modern tools like <strong>Figma</strong> and <strong>Adobe Photoshop</strong>.
+                  I'm <strong>Dhruv Patel</strong>, a <strong>UI/UX Designer</strong> based in <strong>Ahmedabad, Gujarat, India</strong>. I specialize in crafting intuitive user interfaces and visually compelling design assets using modern tools like <strong>Figma</strong> and <strong>Adobe Photoshop</strong>.
                 </p>
                 <p>
                   Beyond design, I'm also a digital content creator, having built an audience of 5K+ Instagram followers and achieved 35M+ overall views through consistent short-form content. This experience has strengthened my creativity, storytelling, visual communication, and understanding of audience engagement.
                 </p>
                 <p>
-                  I enjoy translating complex user requirements into clean, user-friendly SaaS interfaces. By maintaining consistent design systems and brand guidelines, I bridge the gap between creative concepts and high-performance product execution.
+                  I enjoy translating complex user requirements into clean, user-friendly interfaces. By maintaining consistent design systems and brand guidelines, I bridge the gap between creative concepts and high-performance product execution.
                 </p>
               </div>
 

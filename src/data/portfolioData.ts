@@ -5,12 +5,12 @@ import signaturePortrait from '../img/WhatsApp Image 2026-07-17 at 12.45.42 (1).
 
 export const PERSONAL_INFO = {
   name: "Dhruv Patel",
-  title: "Graphic & SaaS Product Designer",
+  title: "UI/UX Designer",
   location: "Ahmedabad, Gujarat, India",
   experience: "B.Tech Computer Engineering (2023–2027)",
   email: "dspatel2175@gmail.com",
   phone: "+91 99097 52175",
-  bio: "Creative and detail-oriented Graphic & SaaS Product Designer based in Ahmedabad. Equipped with advanced expertise in Figma for high-fidelity UI/UX prototyping and design systems, and Adobe Photoshop for digital graphic editing. Possesses solid foundational knowledge and hands-on familiarity with Adobe Illustrator (for vector graphics and custom illustrations) and Adobe InDesign (for professional layouts and brand guidelines). Passionate about crafting visually stunning user interface elements, building clean layouts, and collaborating with cross-functional product and engineering teams to build high-performance solutions.",
+  bio: "Creative and detail-oriented UI/UX Designer based in Ahmedabad. Equipped with advanced expertise in Figma for high-fidelity UI/UX prototyping and design systems, and Adobe Photoshop for digital graphic editing. Possesses solid foundational knowledge and hands-on familiarity with Adobe Illustrator (for vector graphics and custom illustrations) and Adobe InDesign (for professional layouts and brand guidelines). Passionate about crafting visually stunning user interface elements, building clean layouts, and collaborating with cross-functional product and engineering teams to build high-performance solutions.",
   quote: "Passionate about creating visually stunning, user-centric, and high-performance digital experiences.",
   specializations: ["Figma & High-Fidelity UI/UX Prototyping", "Adobe Photoshop & Digital Graphic Design", "Adobe Illustrator (Vector Art & Custom Icons)", "Adobe InDesign (Layout & Brand Guidelines)"],
   socials: {
@@ -26,7 +26,7 @@ export const MAIN_SKILL_PILLARS: SkillPillar[] = [
   {
     id: "figma-uiux",
     title: "Figma & UI/UX Design",
-    subtitle: "Creating interactive, user-centric SaaS product interfaces, custom design systems, and responsive layouts.",
+    subtitle: "Creating interactive, user-centric interfaces, custom design systems, and responsive layouts.",
     category: "Product & UI/UX",
     accent: "#F24E1E",
     bgAccent: "#F24E1E15",
@@ -34,9 +34,9 @@ export const MAIN_SKILL_PILLARS: SkillPillar[] = [
     experience: "EXPERT",
     subSkills: [
       { name: "Figma", level: "Expert", description: "Creating pixel-perfect high-fidelity mockups, vector shapes, and user journeys.", badge: "CORE" },
-      { name: "Design Systems", level: "Skilled", description: "Developing reusable UI component libraries, typography, and color tokens.", badge: "SAAS" },
+      { name: "Design Systems", level: "Skilled", description: "Developing reusable UI component libraries, typography, and color tokens.", badge: "SYSTEMS" },
       { name: "Interactive Prototyping", level: "Skilled", description: "Configuring user flows, transitions, and component states for validation.", badge: "UX" },
-      { name: "SaaS Interface Design", level: "Skilled", description: "Optimizing dashboard structures, layouts, and data visualizations.", badge: "PRODUCT" },
+      { name: "User Interface Design", level: "Skilled", description: "Optimizing dashboard structures, layouts, and data visualizations.", badge: "PRODUCT" },
       { name: "Responsive Layouts", level: "Skilled", description: "Designing interfaces optimized for both mobile devices and wide desktop screens.", badge: "UI" }
     ]
   },
@@ -137,7 +137,7 @@ export const SKILLS_DATA: Skill[] = [
     description: "Multi-page brochure layouts, print-ready document setups, grid-based typography, and flyers."
   },
   {
-    name: "SaaS UI Design",
+    name: "UI/UX Design",
     category: "Product & UI/UX",
     level: "Advanced",
     accent: "#FF6F61",
@@ -218,7 +218,7 @@ export const PROJECTS_DATA: Project[] = [
       architecture: "React + TypeScript + Tailwind CSS + FastAPI + Python + SQLAlchemy + PostgreSQL + Google Gemini API",
       clientInfo: {
         industry: "Career Preparation & EdTech",
-        scope: "Full-stack SaaS application",
+        scope: "Full-stack web application",
         timeline: "Product MVP",
         location: "Remote"
       },
@@ -285,7 +285,7 @@ export const PROJECTS_DATA: Project[] = [
       architecture: "React + TypeScript + TanStack Router + TanStack Query + TailwindCSS + FastAPI + SQLite + Uvicorn",
       clientInfo: {
         industry: "Travel & Expense Management",
-        scope: "Full-stack SaaS MVP",
+        scope: "Full-stack web MVP",
         timeline: "3-week sprint",
         location: "Remote"
       },
@@ -326,7 +326,7 @@ export const PROJECTS_DATA: Project[] = [
 export const PROFILE_IMAGES = [
   {
     url: portraitGreen,
-    alt: "Dhruv Patel — Graphic & SaaS Product Designer",
+    alt: "Dhruv Patel — UI/UX Designer",
     rotation: "-2deg"
   },
   {
