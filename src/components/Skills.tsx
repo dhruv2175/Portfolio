@@ -9,11 +9,11 @@ import { playPopSound } from '../utils/sound';
 
 export const Skills: React.FC = () => {
   const [activeSubSkills, setActiveSubSkills] = useState<Record<string, string>>({
-    "react-frontend": "React.js",
-    "python-backend": "Python",
-    "databases": "MySQL",
-    "ui-frameworks": "Tailwind CSS",
-    "dev-tools": "Git & GitHub"
+    "figma-uiux": "Figma",
+    "adobe-photoshop": "Image Manipulation",
+    "adobe-illustrator": "Vector Illustration",
+    "adobe-indesign": "Layout Design",
+    "branding-collab": "Brand Guidelines"
   });
 
   const getPillarIcon = (iconName: string) => {
@@ -27,8 +27,8 @@ export const Skills: React.FC = () => {
     }
   };
 
-  const row1Pillars = MAIN_SKILL_PILLARS.slice(0, 2); // React & Frontend, Python & Backend
-  const row2Pillars = MAIN_SKILL_PILLARS.slice(2, 5); // Databases, UI Frameworks, Dev Tools
+  const row1Pillars = MAIN_SKILL_PILLARS.slice(0, 2); // Figma & UI/UX, Adobe Photoshop
+  const row2Pillars = MAIN_SKILL_PILLARS.slice(2, 5); // Adobe Illustrator, Adobe InDesign, Brand Strategy & Collab
 
   const handleSubSkillClick = (pillarId: string, subSkillName: string) => {
     playPopSound();

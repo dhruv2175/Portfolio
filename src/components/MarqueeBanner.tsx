@@ -3,11 +3,13 @@ import { Sparkles, Zap, Star } from 'lucide-react';
 
 export const MarqueeBanner: React.FC = () => {
   const marqueeItems = [
-    "REACT.JS FRONTEND",
-    "JAVASCRIPT ES6+",
-    "PYTHON & FASTAPI",
-    "REST API INTEGRATION",
-    "MYSQL & MONGODB",
+    "UI/UX DESIGN",
+    "FIGMA PROTOTYPING",
+    "FRAMER DEVELOPMENT",
+    "HTML5 & CSS3",
+    "GRAPHICS & BRANDING",
+    "ADOBE PHOTOSHOP",
+    "ADOBE ILLUSTRATOR",
     "RESPONSIVE WEB DESIGN",
     "AHMEDABAD, INDIA",
     "B.TECH COMPUTER ENGINEERING",

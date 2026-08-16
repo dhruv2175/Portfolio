@@ -67,7 +67,7 @@ export interface SkillPillar {
 
 export interface Skill {
   name: string;
-  category: 'CMS & E-Commerce' | 'Backend & DB' | 'Frontend' | 'Development Tools';
+  category: 'Product & UI/UX' | 'Graphic Design' | 'Vector & Assets' | 'Print & Layout' | 'Workflow & Strategy' | 'CMS & E-Commerce' | 'Backend & DB' | 'Frontend' | 'Development Tools';
   level: string;
   accent: string;
   iconName: string;
