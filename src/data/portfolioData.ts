@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
   email: "dspatel2175@gmail.com",
   phone: "+91 99097 52175",
   bio: "Creative and detail-oriented UI/UX Designer based in Ahmedabad. Equipped with advanced expertise in Figma for high-fidelity UI/UX prototyping and design systems, and Adobe Photoshop for digital graphic editing. Possesses solid foundational knowledge and hands-on familiarity with Adobe Illustrator (for vector graphics and custom illustrations) and Adobe InDesign (for professional layouts and brand guidelines). Passionate about crafting visually stunning user interface elements, building clean layouts, and collaborating with cross-functional product and engineering teams to build high-performance solutions.",
-  quote: "Passionate about creating visually stunning, user-centric, and high-performance digital experiences.",
+  quote: "The one who gives shape to कला\nwith their emotions is called a कलाकार.",
   specializations: ["Figma & High-Fidelity UI/UX Prototyping", "Adobe Photoshop & Digital Graphic Design", "Adobe Illustrator (Vector Art & Custom Icons)", "Adobe InDesign (Layout & Brand Guidelines)"],
   socials: {
     github: "https://github.com/dhruv2175",

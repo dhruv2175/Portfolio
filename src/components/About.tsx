@@ -122,13 +122,13 @@ export const About: React.FC = () => {
 
               <div className="space-y-4 font-inter text-base text-[#333333]/90 leading-relaxed">
                 <p>
-                  I'm <strong>Dhruv Patel</strong>, a <strong>UI/UX Designer</strong> based in <strong>Ahmedabad, Gujarat, India</strong>. I specialize in crafting intuitive user interfaces and visually compelling design assets using modern tools like <strong>Figma</strong> and <strong>Adobe Photoshop</strong>.
+                  I’m <strong>Dhruv Patel</strong>, a <strong>UI/UX Designer from Ahmedabad, India</strong>, who loves turning <em>“what if?”</em> into <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 text-[#E69F00] font-bold"><em>“wait, this actually looks sick.”</em></span> For me, design is storytelling — taking random ideas, cooking them up, and turning them into digital experiences that actually <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 text-[#E69F00] font-bold">hit</span>.
                 </p>
                 <p>
-                  Beyond design, I'm also a digital content creator, having built an audience of 5K+ Instagram followers and achieved 35M+ overall views through consistent short-form content. This experience has strengthened my creativity, storytelling, visual communication, and understanding of audience engagement.
+                  I’m all about <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 text-[#E69F00] font-bold">clean visuals, intuitive interactions, and the little details</span> that make people stop scrolling. My design approach blends creativity with analytical thinking — understanding what users need, figuring out what works, and turning it into experiences that feel simple, useful, and effortless.
                 </p>
                 <p>
-                  I enjoy translating complex user requirements into clean, user-friendly interfaces. By maintaining consistent design systems and brand guidelines, I bridge the gap between creative concepts and high-performance product execution.
+                  Outside of UI/UX, I’m also a <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 text-[#E69F00] font-bold">content creator</span> with <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 text-[#E69F00] font-bold">5K+ followers and 35M+ views</span>. Creating content taught me how to tell stories, catch trends, and understand what makes people pay attention. I’m <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 text-[#E69F00] font-bold">still learning, still building, and still pushing my ideas</span> — this portfolio is basically a peek into what I think, what I make, and what keeps me creating.
                 </p>
               </div>
 

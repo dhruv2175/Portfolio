@@ -13,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
 
   return (
     <section id="home" className="relative min-h-screen pt-36 pb-6 md:pt-44 md:pb-8 overflow-hidden bg-[#FFFDF9] flex flex-col justify-between">
-      
+
       {/* Decorative Neo-Brutalist Floating Shapes (Randomized placement & larger sizes) */}
       <motion.div
         initial={{ opacity: 0, scale: 0.6 }}
@@ -60,7 +60,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
       </motion.div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full my-auto flex flex-col items-center gap-7 sm:gap-9 text-center">
-        
+
         {/* ROW 1: Centered Title & Location Pill */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -74,9 +74,9 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
             <span>AHMEDABAD, INDIA • UI/UX DESIGNER</span>
           </div>
 
-          <h1 className="font-syne font-extrabold text-4xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight leading-[0.95] text-[#FF6F61] drop-shadow-[4px_4px_0px_#333333] max-w-5xl mx-auto text-center flex flex-col items-center justify-center pt-2 sm:pt-3">
-            <span className="block text-center w-full">CREATING</span>
-            <span className="block text-center w-full">VISUALS</span>
+          <h1 className="font-syne font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl tracking-tight leading-[0.95] text-[#FF6F61] drop-shadow-[4px_4px_0px_#333333] max-w-5xl mx-auto text-center flex flex-col items-center justify-center pt-2 sm:pt-3 w-full">
+            <span className="block text-center w-full whitespace-nowrap">WANNABE <span className="text-[#FFD700]">कलाकार</span></span>
+            <span className="block text-center w-full">CREATES</span>
           </h1>
         </motion.div>
 
@@ -136,7 +136,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
         >
           <div className="relative flex flex-col items-center justify-center text-center px-4">
             <span className="font-syne font-black text-4xl sm:text-5xl text-[#FF6F61] leading-none opacity-80 select-none">“</span>
-            <p className="font-syne font-bold text-base sm:text-lg md:text-xl text-[#333333] tracking-tight italic -mt-3 mb-2.5 max-w-xl">
+            <p className="font-syne font-bold text-base sm:text-lg md:text-xl text-[#333333] tracking-tight italic -mt-3 mb-2.5 max-w-xl whitespace-pre-line">
               {PERSONAL_INFO.quote}
             </p>
             <div className="h-1.5 w-14 bg-[#FFD700] border-2 border-[#333333] rounded-full" />
