@@ -74,9 +74,14 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
             <span>AHMEDABAD, INDIA • UI/UX DESIGNER</span>
           </div>
 
-          <h1 className="font-syne font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl tracking-tight leading-[0.95] text-[#FF6F61] drop-shadow-[4px_4px_0px_#333333] max-w-5xl mx-auto text-center flex flex-col items-center justify-center pt-2 sm:pt-3 w-full">
-            <span className="block text-center w-full whitespace-nowrap">WANNABE <span className="text-[#FFD700]">कलाकार</span></span>
-            <span className="block text-center w-full">CREATES</span>
+          <h1 className="font-syne font-extrabold text-4xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight leading-[1.1] sm:leading-[0.95] text-[#FF6F61] drop-shadow-[4px_4px_0px_#333333] max-w-5xl mx-auto text-center flex flex-col items-center justify-center pt-2 sm:pt-3 w-full">
+            <span className="block text-center w-full">WANNABE</span>
+            <span className="relative inline-block text-center text-[#FFD700] pb-2 select-none">
+              KALAKAR
+              <svg className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-[90%] h-3 sm:h-4 text-[#FF6F61]" viewBox="0 0 100 10" preserveAspectRatio="none">
+                <path d="M0,5 Q12.5,0 25,5 T50,5 T75,5 T100,5" stroke="currentColor" strokeWidth="4.5" fill="none" strokeLinecap="round" />
+              </svg>
+            </span>
           </h1>
         </motion.div>
 
@@ -88,7 +93,9 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
           className="w-full max-w-3xl mx-auto px-2"
         >
           <p className="font-inter font-medium text-base sm:text-lg lg:text-xl text-[#333333]/90 leading-relaxed text-center">
-            Creative UI/UX Designer specializing in user-friendly Figma interfaces, high-quality Adobe Photoshop assets, and brand design layouts with Illustrator and InDesign — focused on clean aesthetics, visual consistency, and seamless developer handoff.
+            UI or UX? <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 font-bold text-[#333333]">UX!</span> UI follows my brothaaa....UI follows!!!
+            <br/>
+            <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 font-bold text-[#FF6F61]">LEARN</span> · <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 font-bold text-[#333333]">THINK</span> · <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 font-bold text-[#FF6F61]">DESIGN</span> · <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 font-bold text-[#333333]">CREATE</span> · <span className="underline decoration-wavy decoration-[#FF6F61] underline-offset-4 font-bold text-[#FF6F61]">SHIP</span>
           </p>
         </motion.div>
 
